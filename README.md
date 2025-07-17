@@ -1,5 +1,7 @@
 # go-less
 My attempted of recreating the less terminal pager using go and termbox is currently in the works
+HOW TO COMPILE:
+"go build goless"
 
 HOW TO USE:
 Either execute the program with a file as the arguments or pipe input to it 
