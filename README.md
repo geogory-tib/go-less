@@ -5,7 +5,7 @@ HOW TO USE:
 Either execute the program with a file as the arguments or pipe input to it 
 
 example:
-  "goless test.tx"
+  "goless test.txt"
   "cat test1.txt test2.txt | goless"
 
 
