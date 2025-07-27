@@ -103,13 +103,15 @@ func findPattern(lines []string, token string, nextPattern *int) (start, end, li
 	for index, lineData := range lines {
 		lineDataL := strings.ToLower(lineData)
 		tempIndex := strings.Index(lineDataL, tokenL) //finds the starting index of the pattern
-		if tempIndex != -1 && nextPaternLocal == *nextPattern {
-			line = index
-			start = tempIndex
-			end = tempIndex + len(token) - 1
-			*nextPattern++
+		if tempIndex != -1 {
+			if *nextPattern == nextPaternLocal {
+				line = index
+				start = tempIndex
+				end = tempIndex + len(token) - 1
+				*nextPattern++
+				return
+			}
 			nextPaternLocal++
-			return
 		}
 	}
 	return -1, -1, -1
