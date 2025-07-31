@@ -1,1 +1,19 @@
+GOLESS(1):
 
+NAME
+  goless - view text files in terminal
+SYNOPSIS
+  goless (filename)
+  (program with text output) | goless
+DESCRIPTION 
+  Goless is a terminal pager inspired by less written in go. Goless includes pattern finding
+  and a line finding feature.
+COMMANDS
+  Commands are based off of the less terminal pager
+  Up and Down arrow keys to move  line by line
+  Page Up and Page Down to scroll Page by Page
+  '/' to find a pattern in the file
+  n to go to the next found pattern in the file while in search mode
+  p to go to the previous  while in search mode
+  g to go to a certian line
+  
