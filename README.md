@@ -1,5 +1,5 @@
 # go-less
-My attempted of recreating the less terminal pager using go and termbox is currently in the works
+A pager insipred by less written in go
 
 HOW TO COMPILE:
 
