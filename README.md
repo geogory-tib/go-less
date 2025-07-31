@@ -4,7 +4,10 @@ My attempted of recreating the less terminal pager using go and termbox is curre
 HOW TO COMPILE:
 
 "$: go build goless"
-
+HOW TO INSTALL:
+"$: chmod +x install.sh"
+"$: ./install.sh"
+Program will be built and copied to /usr/bin 
 HOW TO USE:
 Either execute the program with a file as the arguments or pipe input to it 
 
